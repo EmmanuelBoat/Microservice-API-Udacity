@@ -8,9 +8,9 @@ COPY . app.py /docker_project/
 #COPY . nlib /docker_project/
 
 ## Step 3:
+# hadolint ignore=DL3013
 RUN pip install --upgrade pip &&\
     pip install --trusted-host pypi.python.org -r requirements.txt
-hadolint ignore=DL3013
 
 ## Step 4:
 EXPOSE 80
