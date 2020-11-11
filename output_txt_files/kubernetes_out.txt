@@ -1,0 +1,9 @@
+Error from server (AlreadyExists): pods "projectapiservice" already exists
+NAME                READY   STATUS    RESTARTS   AGE
+projectapiservice   1/1     Running   0          3m24s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
